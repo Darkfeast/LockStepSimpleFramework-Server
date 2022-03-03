@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>LockStepSimpleFramework</RootNamespace>
     <AssemblyName>LockStepSimpleFramework</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,11 +30,83 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="battle\core\action\ActionMainManager.cs" />
+    <Compile Include="battle\core\action\ActionManager.cs" />
+    <Compile Include="battle\core\action\BaseAction.cs" />
+    <Compile Include="battle\core\action\DelayDo.cs" />
+    <Compile Include="battle\core\action\MoveTo.cs" />
+    <Compile Include="battle\core\action\MyDelegates.cs" />
+    <Compile Include="battle\core\base\BaseObject.cs" />
+    <Compile Include="battle\core\base\LiveObject.cs" />
+    <Compile Include="battle\core\base\UnityObject.cs" />
+    <Compile Include="battle\core\BattleLogic.cs" />
+    <Compile Include="battle\core\bullet\BaseBullet.cs" />
+    <Compile Include="battle\core\bullet\BulletFactory.cs" />
+    <Compile Include="battle\core\bullet\DirectionShootBullet.cs" />
+    <Compile Include="battle\core\GameData.cs" />
+    <Compile Include="battle\core\LockStepLogic.cs" />
+    <Compile Include="battle\core\soldier\BaseSoldier.cs" />
+    <Compile Include="battle\core\soldier\Grizzly.cs" />
+    <Compile Include="battle\core\soldier\SoldierFactory.cs" />
+    <Compile Include="battle\core\SRandom.cs" />
+    <Compile Include="battle\core\state\BaseState.cs" />
+    <Compile Include="battle\core\state\CoolingState.cs" />
+    <Compile Include="battle\core\state\NormalState.cs" />
+    <Compile Include="battle\core\state\StateMachine.cs" />
+    <Compile Include="battle\core\state\TowerAttackState.cs" />
+    <Compile Include="battle\core\state\TowerStandState.cs" />
+    <Compile Include="battle\core\tower\BaseTower.cs" />
+    <Compile Include="battle\core\tower\MagicStand.cs" />
+    <Compile Include="battle\core\tower\TowerFactory.cs" />
+    <Compile Include="battle\Fix64.cs" />
+    <Compile Include="battle\UnityTools.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="battle\.git" />
+    <Content Include="battle\core.meta" />
+    <Content Include="battle\core\action.meta" />
+    <Content Include="battle\core\action\ActionMainManager.cs.meta" />
+    <Content Include="battle\core\action\ActionManager.cs.meta" />
+    <Content Include="battle\core\action\BaseAction.cs.meta" />
+    <Content Include="battle\core\action\DelayDo.cs.meta" />
+    <Content Include="battle\core\action\MoveTo.cs.meta" />
+    <Content Include="battle\core\action\MyDelegates.cs.meta" />
+    <Content Include="battle\core\base.meta" />
+    <Content Include="battle\core\base\BaseObject.cs.meta" />
+    <Content Include="battle\core\base\LiveObject.cs.meta" />
+    <Content Include="battle\core\base\UnityObject.cs.meta" />
+    <Content Include="battle\core\BattleLogic.cs.meta" />
+    <Content Include="battle\core\bullet.meta" />
+    <Content Include="battle\core\bullet\BaseBullet.cs.meta" />
+    <Content Include="battle\core\bullet\BulletFactory.cs.meta" />
+    <Content Include="battle\core\bullet\DirectionShootBullet.cs.meta" />
+    <Content Include="battle\core\GameData.cs.meta" />
+    <Content Include="battle\core\LockStepLogic.cs.meta" />
+    <Content Include="battle\core\soldier.meta" />
+    <Content Include="battle\core\soldier\BaseSoldier.cs.meta" />
+    <Content Include="battle\core\soldier\Grizzly.cs.meta" />
+    <Content Include="battle\core\soldier\SoldierFactory.cs.meta" />
+    <Content Include="battle\core\SRandom.cs.meta" />
+    <Content Include="battle\core\state.meta" />
+    <Content Include="battle\core\state\BaseState.cs.meta" />
+    <Content Include="battle\core\state\CoolingState.cs.meta" />
+    <Content Include="battle\core\state\NormalState.cs.meta" />
+    <Content Include="battle\core\state\StateMachine.cs.meta" />
+    <Content Include="battle\core\state\TowerAttackState.cs.meta" />
+    <Content Include="battle\core\state\TowerStandState.cs.meta" />
+    <Content Include="battle\core\tower.meta" />
+    <Content Include="battle\core\tower\BaseTower.cs.meta" />
+    <Content Include="battle\core\tower\MagicStand.cs.meta" />
+    <Content Include="battle\core\tower\TowerFactory.cs.meta" />
+    <Content Include="battle\Fix64.cs.meta" />
+    <Content Include="battle\LICENSE" />
+    <Content Include="battle\README.md" />
+    <Content Include="battle\UnityTools.cs.meta" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
