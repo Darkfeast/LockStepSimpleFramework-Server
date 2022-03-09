@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{ECE38AA4-D0E5-4F6A-841B-D3B51F19079C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LockStepSimpleFramework</RootNamespace>
-    <AssemblyName>LockStepSimpleFramework</AssemblyName>
+    <RootNamespace>SimpleF</RootNamespace>
+    <AssemblyName>SimpleF</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <LangVersion>default</LangVersion>
   </PropertyGroup>

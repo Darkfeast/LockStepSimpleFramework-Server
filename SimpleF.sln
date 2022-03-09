@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockStepSimpleFramework", "LockStepSimpleFramework.csproj", "{ECE38AA4-D0E5-4F6A-841B-D3B51F19079C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleF", "SimpleF.csproj", "{ECE38AA4-D0E5-4F6A-841B-D3B51F19079C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
