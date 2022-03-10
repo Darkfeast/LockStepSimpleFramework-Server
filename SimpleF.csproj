@@ -59,6 +59,7 @@
     <Compile Include="battle\core\tower\BaseTower.cs" />
     <Compile Include="battle\core\tower\MagicStand.cs" />
     <Compile Include="battle\core\tower\TowerFactory.cs" />
+    <Compile Include="battle\DF.cs" />
     <Compile Include="battle\Fix64.cs" />
     <Compile Include="battle\UnityTools.cs" />
     <Compile Include="Program.cs" />

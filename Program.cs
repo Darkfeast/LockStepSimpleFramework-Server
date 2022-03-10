@@ -15,7 +15,7 @@ namespace ServerSocket
 			IPEndPoint point = new IPEndPoint(ip, 2333);
 			//socket绑定监听地址
 			serverSocket.Bind(point);
-			Console.WriteLine("Listen Success");
+			DF.Log("Listen Success", E_ColorType.DarkGreen);
 			//设置同时连接个数
 			serverSocket.Listen(10);
 
